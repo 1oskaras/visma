@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Tahoma;
+  text-align: center;
+  font-size: 16px;
+  background-color: #fffbf2;
+}
+h1 {
+  padding: 20px 20px 20px 30px;
+  margin: 20px 0px;
+  font-size: 30px;
+}
+.registration-title {
+  background-color: #ffefd1;
+}
+
+.registration-form {
+  display: inline-block;
+  color: #303338;
+  background-color: #e8e4dc;
+  text-align: left;
+  margin: 0 auto;
+  border-radius: 4px;
+  margin: 10px 10px 10px 10px;
+
+}
+
+form {
+  margin: 0 auto;
+  padding: 20px 20px 20px 20px;
+}
+.input-group {
+  margin: 0px 20px;
+  line-height: 30px;
+  height: auto;
+  width: 350px;
+}
+
+.input-group input {
+  font-size: 16px;
+  float: right;
+   clear: both;
+}
+
+.input-group label {
+
+
+}
+
+textarea {
+    width: 199px;
+    float: right;
+}
+
+.register-button {
+  background-color: #76cc9b;
+  border-color: #3271db;
+  border-radius: 2px;
+  border: 1px solid;
+  margin: 40px 20px;
+  padding: 8px 20px;
+}
+
+.register-button:before, .register-button:after{
+
+  background-color: #34495e;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+.register-button:hover{
+  color: #ecf0f1;
+}
+.register-button:active{
+
+  color: #ecf0f1;
+}
+
+.user-list {
+  float: left;
+  background-color: white;
+}
+table {
+  width: 100%;
+  margin-top: 10px;
+  background-color: #e8e4dc;
+}
+
+span {
+  padding-left: 40px;
+}
